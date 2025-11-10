@@ -18,5 +18,5 @@ jobs:
         server: ftp.your_somee_hostname_here
         username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASS }}
-        local-dir: "./"           # thư mục build local (gốc repo)
-        server-dir: "/wwwroot/"   # thư mục trên somee (tùy hosting)
+        local-dir: "./"          
+        server-dir: "/wwwroot/"   
