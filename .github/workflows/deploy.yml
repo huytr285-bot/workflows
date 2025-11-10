@@ -15,7 +15,7 @@ jobs:
     - name: FTP Deploy
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: ftp://2805.somee.com/www.2805.somee.com
+        server: ftp://155.254.244.39/www.2805.somee.com
         username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASS }}
         local-dir: "./"          
